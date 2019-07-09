@@ -5,9 +5,15 @@ const Head = () => {
   return (
     <header className="header">
       <nav className="top-nav">
-        <a href="#">notification</a>
-        <a href="#">Log In</a>
-        <a href="#">Sign Up</a>
+        <div className="hov">
+          <a href="#">notification</a>
+        </div>
+        <div className="hov">
+          <a href="#">Log In</a>
+        </div>
+        <div className="hov">
+          <a href="#">Sign Up</a>
+        </div>
       </nav>
       <nav className="bottom-nav">
         <div>
