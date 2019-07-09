@@ -1,0 +1,36 @@
+/* general */
+header.header a {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+/* Top Nav */
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(236, 43, 43, 0.5), rgba(35, 235, 35, .8), rgb(32, 32, 214));
+    padding: 10px 10px;
+}
+
+.top-nav a {
+    margin-left: 20px;
+}
+
+/* Bottom Nav */
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 2px 10px;
+}
+
+.bottom-nav .home-link {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.bottom-nav .right-div a {
+    margin-left: 50px;
+}
