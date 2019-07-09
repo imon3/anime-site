@@ -28,7 +28,9 @@ const Head = () => {
         </ul>
         <ul className="bottom-ul">
           <li className="hov">
-            <a href="#">search</a>
+            <a href="#">
+              <i class="material-icons">search</i>
+            </a>
           </li>
           <li className="hov">
             <a href="#">Winter</a> <i class="material-icons">arrow_drop_down</i>
