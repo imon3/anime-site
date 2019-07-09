@@ -31,16 +31,16 @@ const Head = () => {
             <a href="#">search</a>
           </li>
           <li className="hov">
-            <a href="#">Winter</a>
+            <a href="#">Winter</a> <i class="material-icons">arrow_drop_down</i>
           </li>
           <li className="hov">
-            <a href="#">Spring</a>
+            <a href="#">Spring</a> <i class="material-icons">arrow_drop_down</i>
           </li>
           <li className="hov">
-            <a href="#">Summer</a>
+            <a href="#">Summer</a> <i class="material-icons">arrow_drop_down</i>
           </li>
           <li className="hov">
-            <a href="#">Fall</a>
+            <a href="#">Fall</a> <i class="material-icons">arrow_drop_down</i>
           </li>
           <li className="hov">
             <a href="#">TBA</a>

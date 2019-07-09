@@ -12,6 +12,10 @@ header .home-link-text {
     font-size: 2.3rem;
 }
 
+header i {
+    color: #fff;
+}
+
 /* Top Nav */
 .top-nav {
     display: flex;
