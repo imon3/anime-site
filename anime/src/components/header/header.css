@@ -4,6 +4,14 @@ header.header a {
     font-size: 1.2rem;
 }
 
+header .hov:hover {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+header .home-link-text {
+    font-size: 2.3rem;
+}
+
 /* Top Nav */
 .top-nav {
     display: flex;
@@ -15,18 +23,14 @@ header.header a {
 
 .top-nav ul {
     display: flex;
-    align-items: center;
 }
 
 .top-nav ul li {
-    margin-left: 20px;
+    padding: 0 20px;
     height: 100%;
     display: flex;
     align-items: center;
-}
-
-.top-nav ul li:hover {
-    background-color: rgba(0, 0, 0, .4);
+    transition: all .5s ease-in-out;
 }
 
 .top-nav div a {
@@ -37,7 +41,23 @@ header.header a {
 .bottom-nav {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     background-color: rgba(0, 0, 0, 1);
     padding: 0px 10px;
+}
+
+.bottom-nav .home-link {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.bottom-nav .bottom-ul {
+    display: flex;
+}
+
+.bottom-nav .bottom-ul li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 15px;
+    transition: all .5s ease-in-out;
 }
