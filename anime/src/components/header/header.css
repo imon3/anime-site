@@ -2,7 +2,6 @@
 header.header a {
     color: #fff;
     font-size: 1.2rem;
-
 }
 
 /* Top Nav */
@@ -14,13 +13,20 @@ header.header a {
     height: 30px;
 }
 
-.top-nav div {
+.top-nav ul {
     display: flex;
     align-items: center;
 }
 
-.hov:hover {
-    background-color: rgba(255, 255, 255, .5))
+.top-nav ul li {
+    margin-left: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.top-nav ul li:hover {
+    background-color: rgba(0, 0, 0, .4);
 }
 
 .top-nav div a {
@@ -34,18 +40,4 @@ header.header a {
     /* align-items: center; */
     background-color: rgba(0, 0, 0, 1);
     padding: 0px 10px;
-}
-
-.bottom-nav .home-link {
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-.bottom-nav .right-div {
-    min-height: 100%;
-}
-
-.bottom-nav .right-div a {
-    margin-left: 50px;
-    min-height: 100%;
 }

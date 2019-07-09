@@ -5,15 +5,17 @@ const Head = () => {
   return (
     <header className="header">
       <nav className="top-nav">
-        <div className="hov">
-          <a href="#">notification</a>
-        </div>
-        <div className="hov">
-          <a href="#">Log In</a>
-        </div>
-        <div className="hov">
-          <a href="#">Sign Up</a>
-        </div>
+        <ul>
+          <li>
+            <a href="#">notification</a>
+          </li>
+          <li>
+            <a href="#">Log In</a>
+          </li>
+          <li>
+            <a href="#">Sign Up</a>
+          </li>
+        </ul>
       </nav>
       <nav className="bottom-nav">
         <div>
@@ -22,14 +24,32 @@ const Head = () => {
           </a>
         </div>
         <div className="right-div">
-          <a href="#">search</a>
-          <a href="#">Winter</a>
-          <a href="#">Spring</a>
-          <a href="#">Summer</a>
-          <a href="#">Fall</a>
-          <a href="#">TBA</a>
-          <a href="#">Schedule</a>
-          <a href="#">Headlines</a>
+          <ul>
+            <li>
+              <a href="#">search</a>
+            </li>
+            <li>
+              <a href="#">Winter</a>
+            </li>
+            <li>
+              <a href="#">Spring</a>
+            </li>
+            <li>
+              <a href="#">Summer</a>
+            </li>
+            <li>
+              <a href="#">Fall</a>
+            </li>
+            <li>
+              <a href="#">TBA</a>
+            </li>
+            <li>
+              <a href="#">Schedule</a>
+            </li>
+            <li>
+              <a href="#">Headlines</a>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
