@@ -34,12 +34,12 @@ class Head extends React.Component {
           <ul className="bottom-ul">
             <li className="hov">
               <a href="#">
-                <i class="material-icons">search</i>
+                <i className="material-icons">search</i>
               </a>
             </li>
             <li className="hov">
               <a href="#">Winter</a>
-              <i class="material-icons">arrow_drop_down</i>
+              <i className="material-icons">arrow_drop_down</i>
               <ul className="drop-down winter">
                 <li className="season">
                   <a href="#" className="season-link">
@@ -70,7 +70,7 @@ class Head extends React.Component {
             </li>
             <li className="hov">
               <a href="#">Spring</a>
-              <i class="material-icons">arrow_drop_down</i>
+              <i className="material-icons">arrow_drop_down</i>
               <ul className="drop-down spring">
                 <li className="season">
                   <a href="#" className="season-link">
@@ -101,7 +101,7 @@ class Head extends React.Component {
             </li>
             <li className="hov">
               <a href="#">Summer</a>
-              <i class="material-icons">arrow_drop_down</i>
+              <i className="material-icons">arrow_drop_down</i>
               <ul className="drop-down summer">
                 <li className="season">
                   <a href="#" className="season-link">
@@ -131,7 +131,8 @@ class Head extends React.Component {
               </ul>
             </li>
             <li className="hov">
-              <a href="#">Fall</a> <i class="material-icons">arrow_drop_down</i>
+              <a href="#">Fall</a>{" "}
+              <i className="material-icons">arrow_drop_down</i>
               <ul className="drop-down fall">
                 <li className="season">
                   <a href="#" className="season-link">
