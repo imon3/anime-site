@@ -41,23 +41,124 @@ class Head extends React.Component {
               <a href="#">Winter</a>
               <i class="material-icons">arrow_drop_down</i>
               <ul className="drop-down winter">
-                <li>Winter 2019/2020</li>
-                <li>Winter 2018/2019</li>
-                <li>Winter 2017/2018</li>
-                <li>Winter 2016/2017</li>
-                <li>Winter 2015/2016</li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Winter 2019/2020
+                  </a>
+                </li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Winter 2018/2019
+                  </a>
+                </li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Winter 2017/2018
+                  </a>
+                </li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Winter 2016/2017
+                  </a>
+                </li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Winter 2015/2016
+                  </a>
+                </li>
               </ul>
             </li>
             <li className="hov">
               <a href="#">Spring</a>
               <i class="material-icons">arrow_drop_down</i>
+              <ul className="drop-down spring">
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Spring 2019/2020
+                  </a>
+                </li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Spring 2018/2019
+                  </a>
+                </li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Spring 2017/2018
+                  </a>
+                </li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Spring 2016/2017
+                  </a>
+                </li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Spring 2015/2016
+                  </a>
+                </li>
+              </ul>
             </li>
             <li className="hov">
               <a href="#">Summer</a>
               <i class="material-icons">arrow_drop_down</i>
+              <ul className="drop-down summer">
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Summer 2019/2020
+                  </a>
+                </li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Summer 2018/2019
+                  </a>
+                </li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Summer 2017/2018
+                  </a>
+                </li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Summer 2016/2017
+                  </a>
+                </li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Summer 2015/2016
+                  </a>
+                </li>
+              </ul>
             </li>
             <li className="hov">
               <a href="#">Fall</a> <i class="material-icons">arrow_drop_down</i>
+              <ul className="drop-down fall">
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Fall 2019/2020
+                  </a>
+                </li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Fall 2018/2019
+                  </a>
+                </li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Fall 2017/2018
+                  </a>
+                </li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Fall 2016/2017
+                  </a>
+                </li>
+                <li className="season">
+                  <a href="#" className="season-link">
+                    Fall 2015/2016
+                  </a>
+                </li>
+              </ul>
             </li>
             <li className="hov">
               <a href="#">TBA</a>

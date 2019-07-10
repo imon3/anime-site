@@ -8,6 +8,15 @@ header {
 
     .hov:hover {
         background-color: rgba(255, 255, 255, .2);
+
+        .drop-down {
+            display: block;
+
+            .season {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        }
     }
 
     .home-link-text {
@@ -17,6 +26,16 @@ header {
     i {
         color: #fff;
         padding-top: 5px;
+    }
+
+    .drop-down {
+        display: none;
+        transition: all .5s ease-in-out;
+    }
+
+    .season-link {
+        color: black;
+        font-size: 1rem;
     }
 
     /* Top Nav */
@@ -60,15 +79,43 @@ header {
                 align-items: center;
                 height: 100%;
                 padding: 0 15px;
-                transition: all .5s ease-in-out;
-            }
+                transition: all .2s ease-in-out;
 
-            .winter {
-                position: absolute;
-                background-color: #fff;
-                opacity: .7;
-                top: 78px;
-                left: 61.45%;
+                .winter {
+                    position: absolute;
+                    background-color: #fff;
+                    opacity: .7;
+                    top: 78px;
+                    left: 61.45%;
+                    transition: all .5s ease-in-out;
+                }
+
+                .spring {
+                    position: absolute;
+                    background-color: #fff;
+                    opacity: .7;
+                    top: 78px;
+                    left: 67%;
+                    transition: all .5s ease-in-out;
+                }
+
+                .summer {
+                    position: absolute;
+                    background-color: #fff;
+                    opacity: .7;
+                    top: 78px;
+                    left: 72.6%;
+                    transition: all .5s ease-in-out;
+                }
+
+                .fall {
+                    position: absolute;
+                    background-color: #fff;
+                    opacity: .7;
+                    top: 78px;
+                    left: 78.47%;
+                    transition: all .5s ease-in-out;
+                }
             }
         }
     }
