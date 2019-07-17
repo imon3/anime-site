@@ -21,28 +21,30 @@ class Anime extends React.Component {
       episodes
     } = this.state.anime.summerAnime;
     return (
-      <div>
-        <div>
-          <h2>{title}</h2>
-          <p>
+      <div className="summer-anime-container">
+        <div className="title-section">
+          <a href="#">
+            <h2 className="title">{title}</h2>
+          </a>
+          <div className="genre-section">
             {genres.map(item => {
-              return <p>{item.name}</p>;
+              return <p className="genre">{item.name}</p>;
             })}
-          </p>
+          </div>
         </div>
-        <div>
+        <div className="body-section">
           <div>
-            <img src={image_url} alt="anime" />
+            <img className="anime-img" src={image_url} alt="anime" />
           </div>
           <div>
             <div>
-              <p>{airing_start}</p>
+              <p className="air-date">{airing_start}</p>
             </div>
             <div>
-              <p>{source}</p>
-              <p>{episodes}</p>
+              <p className="source">{source}</p>
+              <p className="episodes">{episodes}</p>
             </div>
-            <div>{synopsis}</div>
+            <div className="synopsis">{synopsis}</div>
           </div>
         </div>
       </div>

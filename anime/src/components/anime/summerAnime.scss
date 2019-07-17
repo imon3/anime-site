@@ -1,0 +1,35 @@
+.summer-container {
+    // display: flex;
+
+    #summer-anime {
+        display: grid;
+        grid-template-columns: repeat(4, 24%);
+        grid-gap: 20px 20px;
+    }
+
+    .summer-anime-container {
+        display: flex;
+        flex-direction: column;
+        border: solid grey 1px;
+
+        .title-section {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .title {
+                font-size: 1rem;
+                font-weight: bold;
+            }
+
+            .genre-section {
+                display: flex;
+
+                .genre {
+                    margin: 0 10px;
+                    font-size: .9rem;
+                }
+            }
+        }
+    }
+}

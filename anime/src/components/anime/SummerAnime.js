@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 import Anime from "./Anime";
+import "./summerAnime.scss";
 
 const url = `https://api.jikan.moe/v3`;
 
@@ -32,17 +33,19 @@ class SummerAnime extends React.Component {
 
   render() {
     return (
-      <div>
-        {this.state.summerAnime.map((sumAnime, index) => {
-          return (
-            <Anime
-              key={index}
-              summerAnime={sumAnime}
-              season_name={this.state.season_name}
-              season_year={this.state.season_year}
-            />
-          );
-        })}
+      <div className="summer-container">
+        <div id="summer-anime">
+          {this.state.summerAnime.map((sumAnime, index) => {
+            return (
+              <Anime
+                key={index}
+                summerAnime={sumAnime}
+                season_name={this.state.season_name}
+                season_year={this.state.season_year}
+              />
+            );
+          })}
+        </div>
       </div>
     );
   }
