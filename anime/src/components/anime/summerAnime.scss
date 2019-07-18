@@ -1,6 +1,5 @@
 .summer-container {
 
-
     #summer-anime {
         display: grid;
         grid-template-columns: repeat(4, 24%);
@@ -15,18 +14,31 @@
 
         .title-section {
             display: flex;
+            flex-wrap: nowrap;
             align-items: center;
             flex-direction: column;
+
 
             .title {
                 font-size: 1rem;
                 font-weight: bold;
                 margin: 5px 0;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                width: 95%;
+                text-align: center;
             }
 
             .genre-section {
                 display: flex;
+                justify-content: center;
                 margin-bottom: 5px;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                width: 95%;
+
 
                 .genre {
                     margin: 0 10px;

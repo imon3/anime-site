@@ -25,9 +25,8 @@ class Anime extends React.Component {
     return (
       <div className="summer-anime-container">
         <div className="title-section">
-          <a href="#">
-            <h2 className="title">{title}</h2>
-          </a>
+          <h2 className="title">{title}</h2>
+
           <div className="genre-section">
             {genres.map(item => {
               return <p className="genre">{item.name}</p>;
