@@ -1,4 +1,6 @@
 import React from "react";
+import "simplebar-react";
+import "simplebar/dist/simplebar.css";
 
 class Anime extends React.Component {
   constructor(props) {
@@ -36,7 +38,7 @@ class Anime extends React.Component {
           <div>
             <img className="anime-img" src={image_url} alt="anime" />
           </div>
-          <div>
+          <div className="right-body-section">
             <div>
               <p className="air-date">{airing_start}</p>
             </div>
@@ -44,7 +46,9 @@ class Anime extends React.Component {
               <p className="source">{source}</p>
               <p className="episodes">{episodes}</p>
             </div>
-            <div className="synopsis">{synopsis}</div>
+            <div className="synopsis" data-simplebar>
+              {synopsis}
+            </div>
           </div>
         </div>
       </div>
