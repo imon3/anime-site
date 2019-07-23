@@ -35,7 +35,6 @@ const Anime = props => {
           </div>
           <div>
             <p className="source">{source}</p>
-            <p className="episodes">{episodes}</p>
           </div>
           <div className="synopsis">{synopsis}</div>
         </div>
