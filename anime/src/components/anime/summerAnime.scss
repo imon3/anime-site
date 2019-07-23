@@ -6,7 +6,8 @@
     #summer-anime {
         display: grid;
         grid-template-columns: repeat(4, 24%);
-        grid-gap: 20px 20px;
+        justify-content: space-between;
+        grid-row-gap: 30px;
     }
 
     .summer-anime-container {
@@ -22,7 +23,6 @@
             flex-wrap: nowrap;
             align-items: center;
             flex-direction: column;
-
 
             .title {
                 font-size: 1rem;
@@ -43,7 +43,6 @@
                 white-space: nowrap;
                 overflow: hidden;
                 width: 95%;
-
 
                 .genre {
                     margin: 0 10px;
