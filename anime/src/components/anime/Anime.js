@@ -10,7 +10,6 @@ const Anime = props => {
     airing_start,
     episodes
   } = props.summerAnime;
-
   return (
     <div className="summer-anime-container">
       <div className="title-section">
