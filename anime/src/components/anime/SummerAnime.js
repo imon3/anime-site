@@ -21,7 +21,11 @@ class SummerAnime extends React.Component {
   }
 
   componentDidMount() {
-    axios
+    this.getAnime();
+  }
+
+  getAnime = async () => {
+    await axios
       .get(`${url}/season/2019/summer`)
       .then(res => {
         this.setState({
@@ -34,7 +38,7 @@ class SummerAnime extends React.Component {
       .catch(err => {
         console.log(err);
       });
-  }
+  };
 
   paginate = page_number => {
     this.setState({
@@ -72,12 +76,12 @@ class SummerAnime extends React.Component {
               />
             );
           })}
-          <Pagination
-            animePerPage={anime_per_page}
-            summerAnimeAmount={summer_anime_amount}
-            paginate={this.paginate}
-          />
         </div>
+        <Pagination
+          animePerPage={anime_per_page}
+          summerAnimeAmount={summer_anime_amount}
+          paginate={this.paginate}
+        />
       </div>
     );
   }
