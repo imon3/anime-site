@@ -9,7 +9,6 @@ class Anime extends React.Component {
     this.state = {
       anime: this.props
     };
-    console.log(this.state.anime);
   }
 
   render() {
@@ -27,8 +26,12 @@ class Anime extends React.Component {
         <div className="title-section">
           <h2 className="title">{title}</h2>
           <div className="genre-section">
-            {genres.map(item => {
-              return <p className="genre">{item.name}</p>;
+            {genres.map((item, index) => {
+              return (
+                <p key={index} className="genre">
+                  {item.name}
+                </p>
+              );
             })}
           </div>
         </div>
