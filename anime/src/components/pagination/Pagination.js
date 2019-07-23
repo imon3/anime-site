@@ -1,4 +1,5 @@
 import React from "react";
+import "./pagination.scss";
 
 const Pagination = props => {
   const { animePerPage, summerAnimeAmount, paginate } = props;
@@ -10,10 +11,10 @@ const Pagination = props => {
 
   return (
     <div>
-      <ul>
+      <ul className="page-number-ul">
         {pageNumbers.map(number => {
           return (
-            <li key={number}>
+            <li className="page-number" key={number}>
               <a onClick={() => paginate(number)} href="#">
                 {number}
               </a>

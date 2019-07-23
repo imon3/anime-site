@@ -1,6 +1,4 @@
 import React from "react";
-import "simplebar-react";
-import "simplebar/dist/simplebar.css";
 
 const Anime = props => {
   const {
@@ -39,9 +37,7 @@ const Anime = props => {
             <p className="source">{source}</p>
             <p className="episodes">{episodes}</p>
           </div>
-          <div className="synopsis" data-simplebar>
-            {synopsis}
-          </div>
+          <div className="synopsis">{synopsis}</div>
         </div>
       </div>
     </div>

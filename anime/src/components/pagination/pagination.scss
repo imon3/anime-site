@@ -1,0 +1,15 @@
+.page-number-ul {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 2rem;
+
+    .page-number {
+        border: 1px solid black;
+
+        a {
+            padding: 10px;
+
+        }
+    }
+}

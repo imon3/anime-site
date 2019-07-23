@@ -1,8 +1,8 @@
 import React from "react";
 import axios from "axios";
 import Anime from "./Anime";
-import "./summerAnime.scss";
 import Pagination from "../pagination/Pagination";
+import "./summerAnime.scss";
 
 const url = `https://api.jikan.moe/v3`;
 
